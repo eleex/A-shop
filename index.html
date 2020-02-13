@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <title>A-shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="header__link-logo" href="#">
+          <img class="header__img-logo" src="img/logo.svg" alt="logo" width="90" height="18" />
+        </a>
+        <ul class="contacts">
+          <li class="contacts__list">
+            <a class="contacts__link contacts__link--phone" href="tel:+490303458220">
+              +49 (030) 345 82 20
+            </a>
+          </li>
+          <li class="contacts__list">
+            <a class="contacts__link contacts__link--viber" href="#">
+              +49 (0) 123 205 28 73
+            </a>
+          </li>
+          <li class="contacts__list">
+            <a class="contacts__link contacts__link--mail" href="mailto:info@gmail.com">
+              info@gmail.com
+            </a>
+          </li>
+        </ul>
+        <div class="language">
+          <label class="language__label">
+            <input class="language__input visually-hidden" type="radio" name="lang" value="en" checked />
+            <span class="language__span">EN</span>
+          </label>
+          <label class="language__label">
+            <input class="language__input visually-hidden" type="radio" name="lang" value="de" />
+            <span class="language__span">DE</span>
+          </label>
+        </div>
+        <button class="navigation__open-menu" type="button"></button>
+        <nav class="navigation display--none">
+          <ul class="navigation__menu">
+            <li class="navigation__list">
+              <a class="navigation__link navigation__link--home" href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="#">Sell coats</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="#">In Stock</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="#">Feedback</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="#">Blog</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__caption">
+          <span>ONLINE STORE</span>
+          <span class="header__caption--more">STYLISH COATS</span>
+          <span>OF EXCELLENT QUALITY!</span>
+        </h1>
+        <div class="clothes">
+          <button class="clothes__btn clothes__btn--coats clothes__btn--active" type="button">Sell coats</button>
+          <button class="clothes__btn" type="button">Top brands</button>
+        </div>
+      </div>
+    </header>
+    <section class="cards">
+      <div class="cards__wrapper">
+        <h2 class="cards__caption">
+          <span>\\</span> 
+          Recent arrivals
+        </h2>
+        <div class="cards__items-wrapper">
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_1.webp 1x, img/card-img_1@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_1.jpg" srcset="img/card-img_1@2x.jpg 2x" alt="coat-1">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Gray</span>
+              <span class="cards__price">&#36;1 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_2.webp 1x, img/card-img_2@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_2.jpg" srcset="img/card-img_2@2x.jpg 2x" alt="coat-2">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Dark Gray</span>
+              <span class="cards__price">&#36;1 599</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_3.webp 1x, img/card-img_3@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_3.jpg" srcset="img/card-img_3@2x.jpg 2x" alt="coat-3">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Navy blue</span>
+              <span class="cards__price">&#36;2 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_4.webp 1x, img/card-img_4@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_4.jpg" srcset="img/card-img_4@2x.jpg 2x" alt="coat-4">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Gray</span>
+              <span class="cards__price">&#36;1 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_5.webp 1x, img/card-img_5@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_5.jpg" srcset="img/card-img_5@2x.jpg 2x" alt="coat-5">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Gray</span>
+              <span class="cards__price">&#36;1 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_6.webp 1x, img/card-img_6@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_6.jpg" srcset="img/card-img_6@2x.jpg 2x" alt="coat-6">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Dark Gray</span>
+              <span class="cards__price">&#36;1 599</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_7.webp 1x, img/card-img_7@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_7.jpg" srcset="img/card-img_7@2x.jpg 2x" alt="coat-7">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Dark Gray</span>
+              <span class="cards__price">&#36;1 599</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_8.webp 1x, img/card-img_8@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_8.jpg" srcset="img/card-img_8@2x.jpg 2x" alt="coat-8">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Gray</span>
+              <span class="cards__price">&#36;1 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cards cards--bottom">
+      <div class="cards__wrapper">
+        <h2 class="cards__caption">
+          <span>\\</span> 
+          Recent arrivals
+        </h2>
+        <div class="cards__items-wrapper cards__items-wrapper-bottom">
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_1.webp 1x, img/card-img_1@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_1.jpg" srcset="img/card-img_1@2x.jpg 2x" alt="coat-1">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Gray</span>
+              <span class="cards__price">&#36;1 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_2.webp 1x, img/card-img_2@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_2.jpg" srcset="img/card-img_2@2x.jpg 2x" alt="coat-2">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Dark Gray</span>
+              <span class="cards__price">&#36;1 599</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_3.webp 1x, img/card-img_3@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_3.jpg" srcset="img/card-img_3@2x.jpg 2x" alt="coat-3">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Navy blue</span>
+              <span class="cards__price">&#36;2 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_4.webp 1x, img/card-img_4@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_4.jpg" srcset="img/card-img_4@2x.jpg 2x" alt="coat-4">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Gray</span>
+              <span class="cards__price">&#36;1 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_5.webp 1x, img/card-img_5@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_5.jpg" srcset="img/card-img_5@2x.jpg 2x" alt="coat-5">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Gray</span>
+              <span class="cards__price">&#36;1 229</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_6.webp 1x, img/card-img_6@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_6.jpg" srcset="img/card-img_6@2x.jpg 2x" alt="coat-6">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Dark Gray</span>
+              <span class="cards__price">&#36;1 599</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="cards__item cards__item--wide">
+            <div class="cards__shadow"></div>
+            <picture>
+              <source type="image/webp" srcset="img/card-img_9.webp 1x, img/card-img_9@2x.webp 2x">
+              <img class="cards__img" src="img/card-img_9.jpg" srcset="img/card-img_9@2x.jpg 2x" alt="coat-9">
+            </picture>
+            <div class="cards__info">
+              <span class="cards__name">Man Coat Picasso</span>
+              <span class="cards__color">Dark Gray</span>
+              <span class="cards__price">&#36;1 599</span>
+              <button class="cards__btn" type="button">Buy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/mobile-menu.js"></script>
+  </body>
+</html>
